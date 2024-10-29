@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Device Features</h2>
+
+<section class="features-intro">
+    <p>The Biothiesmometer offers a comprehensive suite of features designed to make health monitoring accessible, accurate, and insightful. Explore the key functionalities that make our device a valuable tool for wellness and healthcare management.</p>
+</section>
+
+<section class="feature">
+    <h3>Accurate Biological Marker Tracking</h3>
+    <p>Our device utilizes advanced sensors to track key biological markers with precision, ensuring that users get reliable health data they can trust.</p>
+    <p class="feature-benefit">Benefit: Provides a clear view of vital health metrics, enabling proactive health management.</p>
+</section>
+
+<section class="feature">
+    <h3>Real-Time Monitoring</h3>
+    <p>The Biothiesmometer offers real-time monitoring of vital signs, allowing users to stay updated on their health status instantly.</p>
+    <p class="feature-benefit">Benefit: Immediate insights empower users to take timely action if needed.</p>
+</section>
+
+<section class="feature">
+    <h3>Data Visualization</h3>
+    <p>The app provides easy-to-read graphs and visual aids, making complex health data understandable at a glance.</p>
+    <p class="feature-benefit">Benefit: Helps users identify patterns and trends in their health over time.</p>
+</section>
+
+<section class="feature">
+    <h3>User-Friendly Interface</h3>
+    <p>Designed with simplicity in mind, the Biothiesmometer and its app are easy to navigate, even for first-time users.</p>
+    <p class="feature-benefit">Benefit: Encourages regular use and long-term health tracking.</p>
+</section>
+
+<section class="specifications">
+    <h3>Technical Specifications</h3>
+    <ul>
+        <li>Battery Life: Up to 48 hours</li>
+        <li>Measurement Accuracy: ±0.5%</li>
+        <li>Supported Measurements: Heart rate, oxygen saturation, body temperature, etc.</li>
+    </ul>
+</section>
+
+<div class="features-cta">
+    <a href="{{ url_for('main.download') }}" class="cta-button">Download the App to Get Started</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Welcome to the Biothiesmometer</h2>
+<p>The Biothiesmometer is an innovative medical device designed to provide accurate measurements and insights into specific biological markers, helping healthcare professionals and individuals better understand and manage their health. Whether you're tracking vital signs, monitoring trends, or optimizing wellness, the Biothiesmometer offers a reliable and user-friendly solution.</p>
+
+<div class="button-container">
+    <a href="{{ url_for('main.about') }}" class="nav-button">About the Device</a>
+    <a href="{{ url_for('main.features') }}" class="nav-button">Features</a>
+    <a href="{{ url_for('main.contact') }}" class="nav-button">Contact Us</a>
+</div>
+
+{% endblock %}
